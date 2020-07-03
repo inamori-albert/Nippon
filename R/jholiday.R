@@ -1,4 +1,3 @@
-## 稲盛さんのclone
 ### Susumu Tanimura <aruminat@gmail.com>
 ### Time-stamp: <2015-06-24 17:16:11 umusus>
 ### This code was inspired by and refferrd to VBA macro at
@@ -133,10 +132,12 @@ jholiday <- function(year, holiday.names = TRUE){
   
   ## ====== October ==========
   # Health and Sports Day
-  if(year >= 2000 && year != 2020){
+  if(year == 2020){
+    # transferred to 07-24 in 2020
+  }else if(year >= 2000){
     d <- .unfixedDate(.findDateByWeekday(year, 10, wdayStrings[2], 2),
                       "Health and Sports Day")
-  }else if(year > 1966 && year != 2020){
+  }else if(year > 1966){
     d <- .fixedDate("10-10", "Health and Sports Day")
   }
   # Official Enthronement Ceremony of Emperor Akihito
