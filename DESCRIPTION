@@ -1,8 +1,8 @@
 Package: Nippon
 Type: Package
 Title: Japanese Utility Functions and Data
-Version: 0.7.1
-Date: 2018-05-16
+Version: 0.8
+Date: 2020-08-13
 Author: Susumu Tanimura <aruminat@gmail.com> [aut, cre],
   Hironobu Takahashi [cph],
 	Hajime Baba [cph],
